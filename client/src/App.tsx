@@ -1,10 +1,11 @@
 import "./App.css";
+import InputTodo from "./components/InputTodo";
 
 function App() {
 	return (
-		<>
-			<h1>hello world</h1>
-		</>
+		<div className='container'>
+			<InputTodo />
+		</div>
 	);
 }
 
